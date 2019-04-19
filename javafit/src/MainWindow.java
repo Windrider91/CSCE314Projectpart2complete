@@ -29,6 +29,7 @@ public class MainWindow {
     // Code goes here.
 	  this.workouts = workouts;
 	  this.muscleGroups = muscleGroups;
+	  mainFrame.setPreferredSize(new Dimension(600, 400));
 	  
 	
   }
