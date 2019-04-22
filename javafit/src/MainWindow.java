@@ -112,6 +112,7 @@ public class MainWindow {
 	  WorkoutsPanel testPanel = new WorkoutsPanel(muscles, this.workouts);
 	  mainFrame.setLayout(new GridLayout(1, 1));
 	  mainFrame.add(testPanel);
-	  mainFrame.repaint();
+	  mainFrame.validate();
+	  //mainFrame.repaint();
   }
 }
