@@ -113,6 +113,5 @@ public class MainWindow {
 	  mainFrame.setLayout(new GridLayout(1, 1));
 	  mainFrame.add(testPanel);
 	  mainFrame.validate();
-	  //mainFrame.repaint();
   }
 }
